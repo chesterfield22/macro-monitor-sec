@@ -1,0 +1,9 @@
+# Un ticker de la SEC por línea (emisores argentinos que presentan 20-F). Agregar acá para sumar emisores.
+YPF
+PAM
+VIST
+TEO
+TGS
+EDN
+CEPU
+LOMA
