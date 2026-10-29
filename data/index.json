@@ -1,0 +1,69 @@
+{
+ "emisores": {
+  "YPF": {
+   "cik": "0000904851",
+   "nombre": "YPF SOCIEDAD ANONIMA",
+   "actualizado": "2026-10-29T14:38:32Z",
+   "hechos": 4602,
+   "fuente": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000904851.json",
+   "error": ""
+  },
+  "PAM": {
+   "cik": "0001469395",
+   "nombre": "Pampa Energy Inc.",
+   "actualizado": "2026-10-29T14:38:32Z",
+   "hechos": 3112,
+   "fuente": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001469395.json",
+   "error": ""
+  },
+  "VIST": {
+   "cik": "0001762506",
+   "nombre": "Vista Energy, S.A.B. de C.V.",
+   "actualizado": "2026-10-29T14:38:32Z",
+   "hechos": 3136,
+   "fuente": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001762506.json",
+   "error": ""
+  },
+  "TEO": {
+   "cik": "0000932470",
+   "nombre": "TELECOM ARGENTINA SA",
+   "actualizado": "2026-10-29T14:38:32Z",
+   "hechos": 3277,
+   "fuente": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000932470.json",
+   "error": ""
+  },
+  "TGS": {
+   "cik": "0000931427",
+   "nombre": "GAS TRANSPORTER OF THE SOUTH INC",
+   "actualizado": "2026-10-29T14:38:32Z",
+   "hechos": 3021,
+   "fuente": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000931427.json",
+   "error": ""
+  },
+  "EDN": {
+   "cik": "0001395213",
+   "nombre": "EDENOR",
+   "actualizado": "2026-10-29T14:38:32Z",
+   "hechos": 2381,
+   "fuente": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001395213.json",
+   "error": ""
+  },
+  "CEPU": {
+   "cik": "0001717161",
+   "nombre": "CENTRAL PUERTO S.A.",
+   "actualizado": "2026-10-29T14:38:32Z",
+   "hechos": 3105,
+   "fuente": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001717161.json",
+   "error": ""
+  },
+  "LOMA": {
+   "cik": "0001711375",
+   "nombre": "Loma Negra Compania Industrial Argentina Sociedad Anonima",
+   "actualizado": "2026-10-29T14:38:32Z",
+   "hechos": 2957,
+   "fuente": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001711375.json",
+   "error": ""
+  }
+ },
+ "corrida": "2026-10-29T14:38:32Z"
+}
