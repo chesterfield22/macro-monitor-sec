@@ -3,67 +3,283 @@
   "YPF": {
    "cik": "0000904851",
    "nombre": "YPF SOCIEDAD ANONIMA",
-   "actualizado": "2026-10-29T14:38:32Z",
+   "actualizado": "2026-10-29T14:41:10Z",
    "hechos": 4602,
    "fuente": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000904851.json",
-   "error": ""
+   "error": "",
+   "ultimo_en_xbrl": "2026-03-26",
+   "anuales_presentados": [
+    {
+     "form": "20-F",
+     "presentado": "2026-03-26",
+     "periodo": "2025-12-31",
+     "accn": "0001193125-26-126363",
+     "xbrl": 1,
+     "ixbrl": 1
+    },
+    {
+     "form": "20-F",
+     "presentado": "2025-03-28",
+     "periodo": "2024-12-31",
+     "accn": "0001193125-25-067155",
+     "xbrl": 1,
+     "ixbrl": 1
+    },
+    {
+     "form": "20-F",
+     "presentado": "2024-04-25",
+     "periodo": "2023-12-31",
+     "accn": "0001193125-24-114066",
+     "xbrl": 1,
+     "ixbrl": 1
+    }
+   ]
   },
   "PAM": {
    "cik": "0001469395",
    "nombre": "Pampa Energy Inc.",
-   "actualizado": "2026-10-29T14:38:32Z",
+   "actualizado": "2026-10-29T14:41:10Z",
    "hechos": 3112,
    "fuente": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001469395.json",
-   "error": ""
+   "error": "",
+   "ultimo_en_xbrl": "2025-04-16",
+   "anuales_presentados": [
+    {
+     "form": "20-F",
+     "presentado": "2026-04-09",
+     "periodo": "2025-12-31",
+     "accn": "0001292814-26-002185",
+     "xbrl": 1,
+     "ixbrl": 1
+    },
+    {
+     "form": "20-F",
+     "presentado": "2025-04-16",
+     "periodo": "2024-12-31",
+     "accn": "0001292814-25-001504",
+     "xbrl": 1,
+     "ixbrl": 1
+    },
+    {
+     "form": "20-F",
+     "presentado": "2024-04-30",
+     "periodo": "2023-12-31",
+     "accn": "0001292814-24-001730",
+     "xbrl": 1,
+     "ixbrl": 1
+    }
+   ]
   },
   "VIST": {
    "cik": "0001762506",
    "nombre": "Vista Energy, S.A.B. de C.V.",
-   "actualizado": "2026-10-29T14:38:32Z",
+   "actualizado": "2026-10-29T14:41:10Z",
    "hechos": 3136,
    "fuente": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001762506.json",
-   "error": ""
+   "error": "",
+   "ultimo_en_xbrl": "2025-04-09",
+   "anuales_presentados": [
+    {
+     "form": "20-F",
+     "presentado": "2026-04-28",
+     "periodo": "2025-12-31",
+     "accn": "0001193125-26-187099",
+     "xbrl": 1,
+     "ixbrl": 1
+    },
+    {
+     "form": "20-F",
+     "presentado": "2025-04-09",
+     "periodo": "2024-12-31",
+     "accn": "0001193125-25-076856",
+     "xbrl": 1,
+     "ixbrl": 1
+    },
+    {
+     "form": "20-F",
+     "presentado": "2024-04-23",
+     "periodo": "2023-12-31",
+     "accn": "0001193125-24-107031",
+     "xbrl": 1,
+     "ixbrl": 1
+    }
+   ]
   },
   "TEO": {
    "cik": "0000932470",
    "nombre": "TELECOM ARGENTINA SA",
-   "actualizado": "2026-10-29T14:38:32Z",
+   "actualizado": "2026-10-29T14:41:10Z",
    "hechos": 3277,
    "fuente": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000932470.json",
-   "error": ""
+   "error": "",
+   "ultimo_en_xbrl": "2026-03-11",
+   "anuales_presentados": [
+    {
+     "form": "20-F",
+     "presentado": "2026-03-11",
+     "periodo": "2025-12-31",
+     "accn": "0001104659-26-026480",
+     "xbrl": 1,
+     "ixbrl": 1
+    },
+    {
+     "form": "20-F",
+     "presentado": "2025-02-28",
+     "periodo": "2024-12-31",
+     "accn": "0001104659-25-019133",
+     "xbrl": 1,
+     "ixbrl": 1
+    },
+    {
+     "form": "20-F",
+     "presentado": "2024-03-21",
+     "periodo": "2023-12-31",
+     "accn": "0001104659-24-037229",
+     "xbrl": 1,
+     "ixbrl": 1
+    }
+   ]
   },
   "TGS": {
    "cik": "0000931427",
    "nombre": "GAS TRANSPORTER OF THE SOUTH INC",
-   "actualizado": "2026-10-29T14:38:32Z",
+   "actualizado": "2026-10-29T14:41:10Z",
    "hechos": 3021,
    "fuente": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000931427.json",
-   "error": ""
+   "error": "",
+   "ultimo_en_xbrl": "2025-04-24",
+   "anuales_presentados": [
+    {
+     "form": "20-F",
+     "presentado": "2026-04-22",
+     "periodo": "2025-12-31",
+     "accn": "0001140361-26-016167",
+     "xbrl": 1,
+     "ixbrl": 1
+    },
+    {
+     "form": "20-F",
+     "presentado": "2025-04-24",
+     "periodo": "2024-12-31",
+     "accn": "0001140361-25-015473",
+     "xbrl": 1,
+     "ixbrl": 1
+    },
+    {
+     "form": "20-F",
+     "presentado": "2024-04-24",
+     "periodo": "2023-12-31",
+     "accn": "0001140361-24-021683",
+     "xbrl": 1,
+     "ixbrl": 1
+    }
+   ]
   },
   "EDN": {
    "cik": "0001395213",
    "nombre": "EDENOR",
-   "actualizado": "2026-10-29T14:38:32Z",
+   "actualizado": "2026-10-29T14:41:10Z",
    "hechos": 2381,
    "fuente": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001395213.json",
-   "error": ""
+   "error": "",
+   "ultimo_en_xbrl": "2025-04-22",
+   "anuales_presentados": [
+    {
+     "form": "20-F",
+     "presentado": "2026-04-15",
+     "periodo": "2025-12-31",
+     "accn": "0001292814-26-002270",
+     "xbrl": 1,
+     "ixbrl": 1
+    },
+    {
+     "form": "20-F",
+     "presentado": "2025-04-22",
+     "periodo": "2024-12-31",
+     "accn": "0001292814-25-001581",
+     "xbrl": 1,
+     "ixbrl": 1
+    },
+    {
+     "form": "20-F",
+     "presentado": "2024-04-24",
+     "periodo": "2023-12-31",
+     "accn": "0001292814-24-001535",
+     "xbrl": 1,
+     "ixbrl": 1
+    }
+   ]
   },
   "CEPU": {
    "cik": "0001717161",
    "nombre": "CENTRAL PUERTO S.A.",
-   "actualizado": "2026-10-29T14:38:32Z",
+   "actualizado": "2026-10-29T14:41:10Z",
    "hechos": 3105,
    "fuente": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001717161.json",
-   "error": ""
+   "error": "",
+   "ultimo_en_xbrl": "2025-04-25",
+   "anuales_presentados": [
+    {
+     "form": "20-F",
+     "presentado": "2026-04-22",
+     "periodo": "2025-12-31",
+     "accn": "0001292814-26-002446",
+     "xbrl": 1,
+     "ixbrl": 1
+    },
+    {
+     "form": "20-F/A",
+     "presentado": "2025-06-27",
+     "periodo": "2024-12-31",
+     "accn": "0001292814-25-002515",
+     "xbrl": 0,
+     "ixbrl": 0
+    },
+    {
+     "form": "20-F",
+     "presentado": "2025-04-25",
+     "periodo": "2024-12-31",
+     "accn": "0001292814-25-001645",
+     "xbrl": 1,
+     "ixbrl": 1
+    }
+   ]
   },
   "LOMA": {
    "cik": "0001711375",
    "nombre": "Loma Negra Compania Industrial Argentina Sociedad Anonima",
-   "actualizado": "2026-10-29T14:38:32Z",
+   "actualizado": "2026-10-29T14:41:10Z",
    "hechos": 2957,
    "fuente": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001711375.json",
-   "error": ""
+   "error": "",
+   "ultimo_en_xbrl": "2025-04-29",
+   "anuales_presentados": [
+    {
+     "form": "20-F",
+     "presentado": "2026-04-28",
+     "periodo": "2025-12-31",
+     "accn": "0001711375-26-000030",
+     "xbrl": 1,
+     "ixbrl": 1
+    },
+    {
+     "form": "20-F",
+     "presentado": "2025-04-29",
+     "periodo": "2024-12-31",
+     "accn": "0001711375-25-000032",
+     "xbrl": 1,
+     "ixbrl": 1
+    },
+    {
+     "form": "20-F",
+     "presentado": "2024-04-29",
+     "periodo": "2023-12-31",
+     "accn": "0001711375-24-000031",
+     "xbrl": 1,
+     "ixbrl": 1
+    }
+   ]
   }
  },
- "corrida": "2026-10-29T14:38:32Z"
+ "corrida": "2026-10-29T14:41:10Z"
 }
