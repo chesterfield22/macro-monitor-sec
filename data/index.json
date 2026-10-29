@@ -3,7 +3,7 @@
   "YPF": {
    "cik": "0000904851",
    "nombre": "YPF SOCIEDAD ANONIMA",
-   "actualizado": "2026-10-29T14:41:10Z",
+   "actualizado": "2026-10-29T14:43:48Z",
    "hechos": 4602,
    "fuente": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000904851.json",
    "error": "",
@@ -33,12 +33,13 @@
      "xbrl": 1,
      "ixbrl": 1
     }
-   ]
+   ],
+   "agregados_de_instancia": []
   },
   "PAM": {
    "cik": "0001469395",
    "nombre": "Pampa Energy Inc.",
-   "actualizado": "2026-10-29T14:41:10Z",
+   "actualizado": "2026-10-29T14:43:48Z",
    "hechos": 3112,
    "fuente": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001469395.json",
    "error": "",
@@ -68,12 +69,18 @@
      "xbrl": 1,
      "ixbrl": 1
     }
+   ],
+   "agregados_de_instancia": [
+    {
+     "accn": "0001292814-26-002185",
+     "archivo": "https://www.sec.gov/Archives/edgar/data/1469395/000129281426002185/pamform20f_2025_htm.xml"
+    }
    ]
   },
   "VIST": {
    "cik": "0001762506",
    "nombre": "Vista Energy, S.A.B. de C.V.",
-   "actualizado": "2026-10-29T14:41:10Z",
+   "actualizado": "2026-10-29T14:43:48Z",
    "hechos": 3136,
    "fuente": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001762506.json",
    "error": "",
@@ -103,12 +110,18 @@
      "xbrl": 1,
      "ixbrl": 1
     }
+   ],
+   "agregados_de_instancia": [
+    {
+     "accn": "0001193125-26-187099",
+     "archivo": "https://www.sec.gov/Archives/edgar/data/1762506/000119312526187099/d936340d20f_htm.xml"
+    }
    ]
   },
   "TEO": {
    "cik": "0000932470",
    "nombre": "TELECOM ARGENTINA SA",
-   "actualizado": "2026-10-29T14:41:10Z",
+   "actualizado": "2026-10-29T14:43:48Z",
    "hechos": 3277,
    "fuente": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000932470.json",
    "error": "",
@@ -138,12 +151,13 @@
      "xbrl": 1,
      "ixbrl": 1
     }
-   ]
+   ],
+   "agregados_de_instancia": []
   },
   "TGS": {
    "cik": "0000931427",
    "nombre": "GAS TRANSPORTER OF THE SOUTH INC",
-   "actualizado": "2026-10-29T14:41:10Z",
+   "actualizado": "2026-10-29T14:43:48Z",
    "hechos": 3021,
    "fuente": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000931427.json",
    "error": "",
@@ -173,12 +187,18 @@
      "xbrl": 1,
      "ixbrl": 1
     }
+   ],
+   "agregados_de_instancia": [
+    {
+     "accn": "0001140361-26-016167",
+     "archivo": "https://www.sec.gov/Archives/edgar/data/931427/000114036126016167/ef20060824_20f_htm.xml"
+    }
    ]
   },
   "EDN": {
    "cik": "0001395213",
    "nombre": "EDENOR",
-   "actualizado": "2026-10-29T14:41:10Z",
+   "actualizado": "2026-10-29T14:43:48Z",
    "hechos": 2381,
    "fuente": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001395213.json",
    "error": "",
@@ -208,12 +228,18 @@
      "xbrl": 1,
      "ixbrl": 1
     }
+   ],
+   "agregados_de_instancia": [
+    {
+     "accn": "0001292814-26-002270",
+     "archivo": "https://www.sec.gov/Archives/edgar/data/1395213/000129281426002270/ednform20f_2025_htm.xml"
+    }
    ]
   },
   "CEPU": {
    "cik": "0001717161",
    "nombre": "CENTRAL PUERTO S.A.",
-   "actualizado": "2026-10-29T14:41:10Z",
+   "actualizado": "2026-10-29T14:43:48Z",
    "hechos": 3105,
    "fuente": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001717161.json",
    "error": "",
@@ -243,12 +269,18 @@
      "xbrl": 1,
      "ixbrl": 1
     }
+   ],
+   "agregados_de_instancia": [
+    {
+     "accn": "0001292814-26-002446",
+     "archivo": "https://www.sec.gov/Archives/edgar/data/1717161/000129281426002446/cepuform20f_2025_htm.xml"
+    }
    ]
   },
   "LOMA": {
    "cik": "0001711375",
    "nombre": "Loma Negra Compania Industrial Argentina Sociedad Anonima",
-   "actualizado": "2026-10-29T14:41:10Z",
+   "actualizado": "2026-10-29T14:43:48Z",
    "hechos": 2957,
    "fuente": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001711375.json",
    "error": "",
@@ -278,8 +310,14 @@
      "xbrl": 1,
      "ixbrl": 1
     }
+   ],
+   "agregados_de_instancia": [
+    {
+     "accn": "0001711375-26-000030",
+     "archivo": "https://www.sec.gov/Archives/edgar/data/1711375/000171137526000030/loma-20251231_htm.xml"
+    }
    ]
   }
  },
- "corrida": "2026-10-29T14:41:10Z"
+ "corrida": "2026-10-29T14:43:48Z"
 }
