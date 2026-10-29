@@ -8,7 +8,9 @@ SEC_CONTACTO (secreto del repositorio; no queda en el código).
 Salida (carpeta data/):
   data/<TICKER>.json  misma estructura que companyfacts, filtrada a: formularios anuales (20-F, 20-F/A, 40-F, 10-K, 10-K/A),
                       monedas USD y ARS, cierres desde ANIO_MIN. Sin transformar valores (trazabilidad: accn y filed de cada hecho).
-  data/index.json     {ticker: {cik, nombre, actualizado, hechos, fuente, error}} y fecha de la corrida.
+  data/index.json     {ticker: {cik, nombre, actualizado, hechos, fuente, error, ultimo_en_xbrl, anuales_presentados}} y fecha
+                      de la corrida. anuales_presentados (de data.sec.gov/submissions) permite ver si un 20-F ya presentado
+                      todavía no tiene datos XBRL en companyfacts.
 Si un emisor falla, se conserva el archivo anterior y el error queda en index.json.
 """
 import json
@@ -26,6 +28,7 @@ ANIO_MIN = 2017
 PAUSA = 0.25          # la SEC admite hasta 10 consultas por segundo
 URL_TICKERS = 'https://www.sec.gov/files/company_tickers.json'
 URL_FACTS = 'https://data.sec.gov/api/xbrl/companyfacts/CIK{cik}.json'
+URL_SUBM = 'https://data.sec.gov/submissions/CIK{cik}.json'
 
 
 def pedir(url, contacto, intentos=3):
@@ -62,6 +65,28 @@ def filtrar(cf, anio_min=ANIO_MIN):
     return out, n
 
 
+def ultimos_anuales(sub):
+    """submissions → los 3 formularios anuales más recientes: [{form, presentado, periodo, accn, xbrl, ixbrl}]."""
+    r = (sub.get('filings') or {}).get('recent') or {}
+    out = []
+    for i, f in enumerate(r.get('form', [])):
+        if f in FORMULARIOS:
+            out.append({'form': f, 'presentado': r['filingDate'][i], 'periodo': r['reportDate'][i], 'accn': r['accessionNumber'][i],
+                        'xbrl': r.get('isXBRL', [None] * (i + 1))[i], 'ixbrl': r.get('isInlineXBRL', [None] * (i + 1))[i]})
+    return sorted(out, key=lambda x: x['presentado'], reverse=True)[:3]
+
+
+def ultimo_en_xbrl(filtrado):
+    """Fecha de presentación más reciente entre los hechos guardados."""
+    mx = ''
+    for tags in filtrado['facts'].values():
+        for d in tags.values():
+            for lista in d['units'].values():
+                for x in lista:
+                    mx = max(mx, x.get('filed', ''))
+    return mx
+
+
 def main():
     contacto = os.environ.get('SEC_CONTACTO', '').strip()
     if not contacto:
@@ -90,7 +115,13 @@ def main():
             filtrado, n = filtrar(cf)
             with open(os.path.join(DATA, t + '.json'), 'w', encoding='utf-8') as f:
                 json.dump(filtrado, f, ensure_ascii=False, separators=(',', ':'))
-            reg.update({'cik': cik, 'nombre': mapa[t]['title'], 'actualizado': ahora, 'hechos': n, 'fuente': url, 'error': ''})
+            reg.update({'cik': cik, 'nombre': mapa[t]['title'], 'actualizado': ahora, 'hechos': n, 'fuente': url, 'error': '',
+                        'ultimo_en_xbrl': ultimo_en_xbrl(filtrado)})
+            time.sleep(PAUSA)
+            try:
+                reg['anuales_presentados'] = ultimos_anuales(pedir(URL_SUBM.format(cik=cik), contacto))
+            except Exception as e:  # noqa: BLE001
+                reg['anuales_presentados'] = 'error: %s' % e
             print(t, cik, n, 'hechos')
         except Exception as e:      # noqa: BLE001
             reg['error'] = '%s: %s (se conserva el archivo anterior)' % (ahora, e)
